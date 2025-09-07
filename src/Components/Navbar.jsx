@@ -13,7 +13,7 @@ const Navbar = () => {
 
   <div className="flex space-x-6 h-full px-3">
     <a
-      href="https://github.com/Mang0codes/"
+      href="https://github.com/Mang0codes/Gitcompare"
       target="_blank"
       rel="noopener noreferrer"
       className="pl-4 border-x-3 flex items-center h-full border-black hover:underline"
