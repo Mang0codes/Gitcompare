@@ -28,7 +28,7 @@ export default function Result({ rankedRepos }) {
 
   return (
 
-<div className="flex items-center justify-center mt-20 w-full px-2 sm:px-0 overflow-x-hidden">
+<div className="flex items-center justify-center mt-20 w-full px-1 sm:px-0 overflow-x-hidden">
   <div className="flex items-end justify-center gap-2 scale-75 w-full sm:scale-100">
 
     {slotsToRender.map((p, i) => {
