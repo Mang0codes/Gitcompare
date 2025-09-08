@@ -46,10 +46,10 @@ export default function Result({ rankedRepos }) {
               href={repo.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`cursor-pointer gap-2 flex items-center justify-center font-extrabold text-center mb-6 hover:underline text-xl ${p.textSize} truncate`}
+              className={`cursor-pointer gap-2 flex items-center justify-center font-extrabold text-center mb-6 hover:underline text-xl ${p.textSize}`}
             >
               <FaGithub />
-              <span className="truncate max-w-[8rem]">{repo.name.split("/")[1]}</span>
+              <span className="sm:max-w-50 max-w-[8rem] truncate">{repo.name.split("/")[1]}</span>
             </a>
             <div className="flex items-center gap-2"><TbPackage /> Size: {repo.size.toLocaleString()}</div>
             <div className="flex items-center gap-2"><FaRegStar /> Stars: {repo.stars.toLocaleString()}</div>

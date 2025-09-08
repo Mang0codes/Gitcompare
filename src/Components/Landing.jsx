@@ -104,9 +104,9 @@ const handleAddRepo = async () => {
 
         {repos.map((repo) => (
         <div key={repo.name}
-        className='border-3 border-black shadow-[5px_5px_0px_black] h-60 w-70 bg-[#BAE6FF]'>
-          <div className='m-6 font-medium border-black'>
-          <div className="flex items-center gap-2"><FaGithub /> Name: {repo.name.split("/")[1]}</div>
+        className='border-3 border-black shadow-[5px_5px_0px_black] h-64 w-76 bg-[#BAE6FF]'>
+          <div className='m-6 font-medium border-black mt-8'>
+          <div className="flex items-center gap-2"><FaGithub />   <span className="truncate max-w-[12rem]">{repo.name.split("/")[1]}</span></div>
           <div className="flex items-center gap-2"><FaRegStar /> Stars: {repo.stars.toLocaleString()}</div>
           <div className="flex items-center gap-2"><TbPackage /> Size: {repo.size.toLocaleString()}</div>
           <div className="flex items-center gap-2"><FaCodeBranch /> Forks: {repo.forks.toLocaleString()}</div>
