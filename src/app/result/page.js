@@ -18,7 +18,7 @@ const ResultPage = () => {
   return (
     <main className="flex flex-col min-h-screen" style={{ fontFamily: "Space Grotesk" }}>
       <Navbar />
-      <div className="flex-grow px-0 sm:px-4">
+      <div className="flex-grow">
         <Result rankedRepos={results} />
       </div>
       <Footer />

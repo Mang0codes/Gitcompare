@@ -28,8 +28,8 @@ export default function Result({ rankedRepos }) {
 
   return (
 
-<div className="flex items-center justify-center mt-20 w-full px-4 sm:px-0 ">
-  <div className="flex items-end justify-center gap-2 scale-75 sm:scale-100">
+<div className="flex items-center justify-center mt-20 w-full px-2 sm:px-0 overflow-x-hidden">
+  <div className="flex items-end justify-center gap-2 scale-75 w-full sm:scale-100">
 
     {slotsToRender.map((p, i) => {
       const repo = ranked[i];
@@ -38,7 +38,7 @@ export default function Result({ rankedRepos }) {
       return (
         <div
           key={`${repo.name}-${i}`}
-          className={`w-44 sm:w-65 ${p.height} border-2 sm:border-3 shadow-[3px_3px_0px_black] sm:shadow-[5px_5px_0px_black] rounded-lg flex items-center justify-center`}
+          className={`w-42 sm:w-65 ${p.height} border-2 sm:border-3 shadow-[3px_3px_0px_black] sm:shadow-[5px_5px_0px_black] rounded-lg flex items-center justify-center`}
           style={{ backgroundColor: p.color }}
         >
           <div className="m-2 space-y-2 sm:mx-6 font-medium text-sm sm:text-base">

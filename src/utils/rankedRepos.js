@@ -1,6 +1,5 @@
 export default function rankRepos(repos) {
 
-  
   return repos
     .map((repo) => {
       const score =
