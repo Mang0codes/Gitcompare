@@ -38,18 +38,18 @@ export default function Result({ rankedRepos }) {
       return (
         <div
           key={`${repo.name}-${i}`}
-          className={`flex-shrink-0 w-44 sm:w-65 ${p.height} border-2 sm:border-3 shadow-[3px_3px_0px_black] sm:shadow-[5px_5px_0px_black]  rounded-lg flex items-center justify-center`}
+          className={`flex-shrink-0 w-40 sm:w-65 ${p.height} border-2 sm:border-3 shadow-[3px_3px_0px_black] sm:shadow-[5px_5px_0px_black]  rounded-lg flex items-center justify-center`}
           style={{ backgroundColor: p.color }}
         >
-          <div className="m-2 space-y-2 sm:mx-6 font-medium text-sm sm:text-base">
+          <div className="m-2 space-y-1 sm:space-y-2 sm:mx-6 font-medium text-xs sm:text-base">
              <a
               href={repo.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`cursor-pointer gap-2 flex items-center justify-center font-extrabold text-center mb-6 hover:underline text-xl ${p.textSize} truncate`}
+              className={`cursor-pointer gap-2 flex items-center justify-center font-extrabold text-center mb-6 hover:underline active:underline text-xl ${p.textSize} truncate`}
             >
               <FaGithub />
-              <span className="sm:max-w-40 max-w-[8rem] truncate">{repo.name.split("/")[1]}</span>
+              <span className="sm:max-w-40 max-w-[7rem] truncate">{repo.name.split("/")[1]}</span>
             </a>
             <div className="flex items-center gap-2"><TbPackage /> Size: {repo.size.toLocaleString()}</div>
             <div className="flex items-center gap-2"><FaRegStar /> Stars: {repo.stars.toLocaleString()}</div>
