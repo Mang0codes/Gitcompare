@@ -18,7 +18,7 @@ Built with **Next.js + TailwindCSS**, styled like a **retro podium leaderboard**
 
 | Podium View | Repo Details |
 |-------------|--------------|
-| ![Podium Screenshot](./public/screenshot1.png) | ![Details Screenshot](./public/screenshot2.png) |
+| ![Podium Screenshot](./public/imgs/podium.png) | ![Details Screenshot](./public/imgs/repos.png) |
 
 ---
 
