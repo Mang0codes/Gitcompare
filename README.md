@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔍 GitCompare
 
-## Getting Started
+Compare your GitHub repositories side by side and decide which one deserves your next contribution.  
+Built with **Next.js + TailwindCSS**, styled like a **retro podium leaderboard** 🏆.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- ⚡ **Repo Comparison** – See repositories next to each other at a glance.  
+- 🎨 **Podium-style UI** – Rank the top 3 repos in a fun, visual way.  
+- 📱 **Responsive Design** – Looks great on mobile and desktop.  
+- 🖼️ **OG-Ready Metadata** – Share links that look sleek on Twitter, LinkedIn, and Discord.  
+
+---
+
+## 📸 Screenshots
+
+| Podium View | Repo Details |
+|-------------|--------------|
+| ![Podium Screenshot](./public/screenshot1.png) | ![Details Screenshot](./public/screenshot2.png) |
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) – React framework for production.  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling.  
+- [React Icons](https://react-icons.github.io/react-icons/) – For GitHub & UI icons.  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/yourusername/gitcompare.git
+cd gitcompare
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3️⃣ Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open 👉 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Deployment
 
-## Learn More
+This project is optimized for **Vercel**:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+vercel deploy
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 💡 Inspiration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We often have too many repos to pick from 🤯. GitCompare makes it easy to visualize, compare, and decide quickly which project to focus on.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to open an [issue](https://github.com/yourusername/gitcompare/issues) or submit a PR.  
+
+---
+
+## 🏅 Acknowledgements
+
+- GitHub API  
+- Tailwind CSS Community  
+- Next.js Team  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+You’re free to use, modify, and distribute.  
